@@ -1,0 +1,17 @@
+.table {
+	border-collapse: collapse;
+	border: 3px solid black;
+	margin-top: 10px;
+}
+.table-item {
+	border: 3px solid black;
+	padding: 5px 40px;
+	text-align: center;
+}
+.item {
+}
+.title {
+	background-color: rgb(20, 20, 20);
+	color: white;
+	opacity: 0.8;
+}

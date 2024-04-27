@@ -1,7 +1,9 @@
+import clsx from 'clsx';
+import css from './Friends.module.css';
 import FriendListItem from '../FriendsListItem/FriendListItem';
 const Friends = ({ friends }) => {
 	return (
-		<ul>
+		<ul className={clsx(css['friends-list'])}>
 			{friends.map(friend => (
 				<li key={friend.id}>
 					<FriendListItem

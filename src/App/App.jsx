@@ -3,6 +3,8 @@ import Profile from '../Profile/Profile';
 import Friends from '../Friends/Friends';
 import userData from '../userData.json';
 import friends from '../friends.json';
+import TransactionHistory from '../TransactionHistory/TransactionHistory';
+import transactions from '../transactions.json'
 
 const App = () => {
 	return (
@@ -15,6 +17,8 @@ const App = () => {
 				stats={userData.stats}
 			/>
 			<Friends friends={friends} />
+			
+			<TransactionHistory items={transactions} />
 		</>
 	);
 };
